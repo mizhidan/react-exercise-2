@@ -1,0 +1,17 @@
+@import '../../styles/variables.scss';
+
+.header {
+    display: flex;
+    background-color: $support-blue;
+    justify-content: space-between;
+    color: $white;
+    h1 {
+        padding: $base-padding;
+        margin: $base-margin;
+    }
+}
+
+.cart-icon {
+    width: 20px;
+    margin-right: 40px;
+}
