@@ -1,0 +1,10 @@
+.products {
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+}
+
+.product-list h2 {
+    margin: 20px 20px;
+    font-weight: bold;
+}

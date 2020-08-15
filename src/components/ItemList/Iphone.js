@@ -12,7 +12,6 @@ class Iphone extends React.Component {
     return (
       this.props.data.map((item,index) => {
         if(item.category === "iPhone")
-          console.log(item);
         return <Item
             name={item.name}
             price={item.price}

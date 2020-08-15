@@ -1,5 +1,8 @@
 import React from 'react';
 import productImg from '../../assets/product_image_placeholder.png';
+import "./Item.css";
+import { Button } from 'antd';
+import 'antd/dist/antd.css';
 
 class Item extends React.Component {
   constructor(props) {
@@ -12,12 +15,12 @@ class Item extends React.Component {
 
   render() {
     return (
-      <div className="Item">
+      <div className="item">
         <h3>{this.props.name}</h3>
         <img src={productImg} alt="productImg" />
-        <div className="price">
-          <span>{this.props.price}</span>
-          <button className="add-to-cart-btn">add to cart</button>
+        <div className="price-add">
+          <span className="price">{this.props.price}</span>
+          <Button type="primary" size={"small"} className="button">add to cart</Button>
         </div>
       </div>
     );

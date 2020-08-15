@@ -2,6 +2,7 @@ import React from 'react';
 import Item from './Item';
 import Iphone from './Iphone';
 import Huawei from "./Huawei";
+import "./Items.css"
 
 const url="http://localhost:3000/products"
 
@@ -25,13 +26,13 @@ class Items extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="product-list">
         <h2>iPhone</h2>
-        <div>
+        <div className="products">
           <Iphone data={this.state.items} />
         </div>
         <h2>HUAWEI</h2>
-        <div>
+        <div className="products">
           <Huawei data={this.state.items} />
         </div>
       </div>
