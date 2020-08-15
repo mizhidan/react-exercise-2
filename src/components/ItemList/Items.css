@@ -4,6 +4,10 @@
     height: 200px;
 }
 
+.product-list {
+    height: 575px;
+}
+
 .product-list h2 {
     margin: 20px 20px;
     font-weight: bold;

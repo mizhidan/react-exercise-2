@@ -15,7 +15,7 @@ class Header extends React.Component {
         <h1>Store</h1>
         <div className="cart">
           <img src={cart} alt="cart-icon" className="cart-icon" />
-          <span className="count">{this.state.count}</span>
+          <span className="count">{this.props.count}</span>
         </div>
       </div>
     );

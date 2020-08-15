@@ -15,6 +15,7 @@ class Iphone extends React.Component {
         return <Item
             name={item.name}
             price={item.price}
+            addCount={this.props.addCount}
             key={index}/>
       })
     )

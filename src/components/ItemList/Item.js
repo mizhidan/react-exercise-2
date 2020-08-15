@@ -20,7 +20,7 @@ class Item extends React.Component {
         <img src={productImg} alt="productImg" />
         <div className="price-add">
           <span className="price">{this.props.price}</span>
-          <Button type="primary" size={"small"} className="button">add to cart</Button>
+          <Button type="primary" size={"small"} className="button" onClick={this.props.addCount}>add to cart</Button>
         </div>
       </div>
     );

@@ -29,11 +29,11 @@ class Items extends React.Component {
       <div className="product-list">
         <h2>iPhone</h2>
         <div className="products">
-          <Iphone data={this.state.items} />
+          <Iphone data={this.state.items} addCount={this.props.addCount}/>
         </div>
         <h2>HUAWEI</h2>
         <div className="products">
-          <Huawei data={this.state.items} />
+          <Huawei data={this.state.items} addCount={this.props.addCount}/>
         </div>
       </div>
 
